@@ -38,7 +38,7 @@ class Products:
                     f"Name: {product_info.name}, Price: {product_info.price}, quantity: {product_info.quantity},"
                     f" Total price: {product_info.price * product_info.quantity} ID: {product_info.product_id}"
                 )
-        return f"ERROR 404! not find product by this id: {id}"
+        return f"ERROR 404! not found product by this id: {id}"
 
 
 @dataclass
