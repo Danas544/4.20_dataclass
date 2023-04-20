@@ -13,7 +13,7 @@
 
 from dataclasses import dataclass
 from collections.abc import Iterator
-tes
+
 
 class Products:
     list_products: list = []
